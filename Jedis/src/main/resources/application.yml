@@ -1,0 +1,14 @@
+logging:
+  level:
+    org.springframework: WARN
+    com.alibaba: WARN
+    com.ejlerp: DEBUG
+  config: classpath:logback.xml
+
+server:
+  port: 8888
+  session:
+      timeout: 120
+redis:
+  host: 127.0.0.1
+  port: 6379

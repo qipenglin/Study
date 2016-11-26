@@ -1,0 +1,34 @@
+/egenie-dts-web/.settings
+# Mac
+.DS_Store
+
+# Eclipse
+.settings/
+**/.settings/
+.classpath
+.project
+.metadata
+**/WEB-INF/lib
+**/WEB-INF/classes
+
+# Intellij IDEA
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea/
+target/
+build/
+out/
+
+# log
+*.log
+**/.externalToolBuilders/
+
+# maven
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+
+
+node_modules/*
